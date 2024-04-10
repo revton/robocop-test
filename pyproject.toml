@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "robocop-test"
+version = "0.1.0"
+description = ""
+authors = ["Revton Braga <revtonbr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+robotframework = "^7.0"
+robotframework-robocop = "^5.0.4"
+robotframework-tidy = "^4.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
